@@ -1,7 +1,7 @@
 import pandas as pd
 # ./表示 当前目录路径
 #../表示 上一级目录路径
-df1 = pd.read_csv('../data/2_apple.csv')
+df1 = pd.read_csv('../../data/2_apple.csv')
 #head只对前5行进行查看
 print(df1.head())
 print(df1.tail(3))
